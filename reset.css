@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    background-image: url(./images/bg-repeat.jpg);
+    background-size: contain;
+    overflow: hidden;
+    height: 100vh;
+}
+
+input, textarea {
+    all: unset;
+    width: 298px;
+    padding: 8px 9px 9px;
+    border: solid black 1px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+textarea {
+    white-space: pre-wrap;
+    margin-bottom: 7px;
+}
+
+input::placeholder, textarea::placeholder {
+    font-weight: 700;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+}

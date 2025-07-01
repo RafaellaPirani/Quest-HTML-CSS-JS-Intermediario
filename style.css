@@ -1,0 +1,85 @@
+.container {
+    display: flex;
+    margin-top: 130px;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacoes {
+    margin-right: 60px;
+}
+
+.informacoes h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #fff;
+    width: 287px;
+    padding-bottom: 11px;
+}
+
+.informacoes p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 300px;
+    color: #fff;
+}
+
+.container .formulario {
+    width: 340px;
+    background-color: #fff;
+    padding: 20px 20px 21px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .formulario input,
+.container .formulario textarea {
+    margin-bottom: 0;
+}
+
+.formulario input:not(.required-no-input),
+.formulario textarea:not(.required-no-input) {
+  margin-bottom: 15px;
+}
+
+.container .formulario .message textarea {
+    height: 100px;
+    text-align: left;
+    vertical-align: top;
+    overflow-y: auto;
+}
+
+.container .formulario .campo-obrigatorio {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.container .formulario .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 12px 127px 12px 127px;
+    background-color: #3CCC87;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.formulario .required {
+    display: none;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: red;
+    margin: 1px 0 0 0;
+}
+
+.required-no-input {
+    border: solid red 1px;
+}
+
+.required-input {
+    border: solid green 1px;
+}
